@@ -52,6 +52,34 @@ Follow these steps to set up the project:
     ###### You can upload the csv file here after clicking the submit button.
     ![upload image](readme/upload.png)
 
+## Releasing Your Model on GitHub (Optional)
+If you would like to share your trained model, you can release it on GitHub. Follow these steps:
+
+1. **Save your trained model**  
+   - Ensure your model file is inside the `models/` directory.  
+   - Recommended formats: `.pth`, `.pt`, `.h5`, `.keras`, etc.
+
+2. **Create a new GitHub Release**  
+   - Go to your repository on GitHub.  
+   - Click on the **"Releases"** tab.  
+   - Click on **"Draft a new release"**.  
+
+3. **Tag your release**  
+   - Under **Tag version**, enter a version number (e.g., `v1.0`).  
+   - Use **Release title** to briefly describe your model.  
+
+4. **Upload your model file**  
+   - Attach your trained model file under the **"Assets"** section.  
+   - You can also include additional files, such as logs or configuration files.  
+
+5. **Describe your model**  
+   - Write a short summary of your model’s architecture, training settings, and performance in the **release description**.  
+
+6. **Publish the release**  
+   - Click **"Publish release"** to make it available for others.  
+
+For more details, check [GitHub's official guide on releases](https://docs.github.com/en/repositories/releasing-projects-on-github).
+
 ## Evaluation Criteria
 Submissions will be evaluated based on the following metrics:
 - **F1 Score (highest weight)**
@@ -78,4 +106,3 @@ We welcome improvements! Feel free to open issues or submit pull requests.
 For any questions, open an issue or reach out to the organizers.
 
 Good luck and happy coding!
-
