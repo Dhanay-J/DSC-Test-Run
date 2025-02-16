@@ -78,6 +78,14 @@ If you would like to share your trained model, you can release it on GitHub. Fol
 6. **Publish the release**  
    - Click **"Publish release"** to make it available for others.  
 
+   ###### Release Tab
+
+   ![Release tab](readme/releasetab.png)
+
+   ###### Uploading your model and releasing
+
+   ![Releasing](readme/release.png)
+
 For more details, check [GitHub's official guide on releases](https://docs.github.com/en/repositories/releasing-projects-on-github).
 
 ## Evaluation Criteria
