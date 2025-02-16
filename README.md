@@ -1,4 +1,4 @@
-# AI-Generated Image Detection Challenge
+# [DSC Test Run](https://www.kaggle.com/competitions/test-run-2/)
 
 ## Overview
 Welcome to the **AI-Generated Image Detection Challenge**! The goal of this competition is to develop models that can distinguish AI-generated images from real images. Participants are encouraged to experiment with different techniques and submit their best models for evaluation.
@@ -21,12 +21,13 @@ Follow these steps to set up the project:
 
 ### 1. Fork and Clone the Repository
 1. Click the **Fork** button on the top right of this repository.
-![Fork](readme/fork.png)
+   ![Fork](readme/fork.png)
 2. Clone your forked repository:
    ```bash
    git clone https://github.com/YOUR_USER_NAME/DSC-Test-Run
    cd DSC-Test-Run
    ```
+
 ### 2. Prepare the Dataset
 - Download the dataset (provided separately).
 - Place it inside the `datasets/` folder.
@@ -46,11 +47,12 @@ Follow these steps to set up the project:
    2|0
    ...|...
 2. Submit `solution.csv` as your final submission.
-    ###### You can see the submit button here
-    ![submit image](readme/submit.png)
-
-    ###### You can upload the csv file here after clicking the submit button.
-    ![upload image](readme/upload.png)
+   
+   ###### You can see the submit button here
+   ![submit image](readme/submit.png)
+   
+   ###### You can upload the csv file here after clicking the submit button.
+   ![upload image](readme/upload.png)
 
 ## Releasing Your Model on GitHub (Optional)
 If you would like to share your trained model, you can release it on GitHub. Follow these steps:
@@ -79,18 +81,16 @@ If you would like to share your trained model, you can release it on GitHub. Fol
    - Click **"Publish release"** to make it available for others.  
 
    ###### Release Tab
-
    ![Release tab](readme/releasetab.png)
 
    ###### Uploading your model and releasing
-
    ![Releasing](readme/release.png)
 
 For more details, check [GitHub's official guide on releases](https://docs.github.com/en/repositories/releasing-projects-on-github).
 
 ## Evaluation Criteria
 Submissions will be evaluated based on the following metrics:
-- **F1 Score (highest weight)**
+- **AUC (highest weight)**
 - Accuracy
 - Precision
 - Recall
