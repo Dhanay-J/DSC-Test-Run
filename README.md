@@ -25,7 +25,7 @@ Follow these steps to set up the project:
 2. Clone your forked repository:
    ```bash
    git clone https://github.com/YOUR_USER_NAME/DSC-Test-Run
-   cd AI-Image-Detection
+   cd DSC-Test-Run
    ```
 ### 2. Prepare the Dataset
 - Download the dataset (provided separately).
