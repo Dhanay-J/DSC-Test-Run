@@ -1,0 +1,43 @@
+# Model Configuration
+model:
+  name: "efficientnet_b0"
+  pretrained: true
+  num_classes: 2
+
+# Training Configuration
+train:
+  batch_size: 64  # Increased from 32
+  num_epochs: 120
+  learning_rate: 0.001
+  optimizer: "adam"
+  scheduler:
+    name: "cosine"
+    T_max: 20
+  
+# Data Configuration
+data:
+  train_csv: "data/train.csv"
+  test_csv: "data/test.csv"
+  train_dir: "data/train"
+  test_dir: "data/test"
+  image_size: 224
+  num_workers: 4  # Adjust based on CPU cores (typically 4 for 8 core CPU)
+
+# Augmentation Configuration
+augmentation:
+  train:
+    horizontal_flip: true
+    vertical_flip: false
+    random_brightness_contrast: true
+    normalize:
+      mean: [0.485, 0.456, 0.406]
+      std: [0.229, 0.224, 0.225]
+  test:
+    normalize:
+      mean: [0.485, 0.456, 0.406]
+      std: [0.229, 0.224, 0.225]
+
+# Output Configuration
+output:
+  model_save_path: "models"
+  submission_path: "submissions"
